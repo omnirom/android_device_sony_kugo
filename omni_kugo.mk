@@ -30,5 +30,4 @@ PRODUCT_MODEL := Xperia X Compact
 TARGET_OTA_ASSERT_DEVICE := F5321,kugo
 
 # Inherit OmniROM parts
-$(call inherit-product, device/sony/kugo/twrp.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
