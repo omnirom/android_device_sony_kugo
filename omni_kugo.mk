@@ -12,6 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# vendor
+VENDOR_PATH := vendor/sony/loire-kugo/proprietary
+
 # Bootanimation
 TARGET_BOOTANIMATION_SIZE := 720x407
 
@@ -25,6 +28,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Override Product Name for OmniROM
 PRODUCT_NAME := omni_kugo
 PRODUCT_MODEL := Xperia X Compact
+
+# TWRP
+PRODUCT_COPY_FILES += \
+    $(VENDOR_PATH)/bin/qseecomd:recovery/root/sbin/qseecomd
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := F5321,kugo
