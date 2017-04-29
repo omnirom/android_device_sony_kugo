@@ -16,18 +16,26 @@
 TARGET_BOOTANIMATION_SIZE := 720x407
 
 # Inherit device parts
-$(call inherit-product, device/sony/kugo/aosp_f5321.mk)
+$(call inherit-product, device/sony/kugo/device.mk)
+$(call inherit-product, frameworks/native/build/phone-xxxhdpi-3072-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xxxhdpi-3072-hwui-memory.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Inherit Omni GSM telephony parts
-PRODUCT_PROPERTY_OVERRIDES += \
-    telephony.lteOnGSMDevice=1
+# kernel
+TARGET_KERNEL_CONFIG := aosp_loire_kugo_defconfig
 
 # Override Product Name for OmniROM
 PRODUCT_NAME := omni_kugo
 PRODUCT_MODEL := Xperia X Compact
+PRODUCT_DEVICE := kugo
+PRODUCT_BRAND := Sony
+PRODUCT_MANUFACTURER := Sony
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := F5321,kugo
+
+# Kugo Props
+TARGET_SYSTEM_PROP += device/sony/kugo/system.prop
 
 # Inherit OmniROM parts
 $(call inherit-product, vendor/omni/config/gsm.mk)
