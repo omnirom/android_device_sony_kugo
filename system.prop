@@ -1,16 +1,4 @@
-ro.semc.version.sw=1300-4911
-ro.semc.version.sw_revision=34.2.A.2.47
-ro.semc.version.sw_variant=GLOBAL-LTE2A
-ro.semc.version.sw_type=user
-
-ro.semc.version.fs=GENERIC
-ro.semc.version.fs_revision=34.2.A.2.47
-
-ro.semc.ms_type_id=PM-0970-BV
-
+# SEMC
 ro.semc.product.name=Xperia X Compact
 ro.semc.product.device=F53
 ro.semc.product.model=F5321
-
-ro.semc.version.cust=OmniROM
-ro.semc.version.cust_revision=7.1.2_N2G47J
