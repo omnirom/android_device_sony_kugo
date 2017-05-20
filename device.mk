@@ -58,6 +58,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.kugo
 
+# Fingerprint HAL
+PRODUCT_PACKAGES += \
+    fingerprintd \
+    fingerprint.kugo
+
 # NFC config
 PRODUCT_PACKAGES += \
     nfc_nci.kugo
