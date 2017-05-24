@@ -22,3 +22,5 @@ BOARD_KERNEL_CMDLINE += androidboot.hardware=kugo
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 23894933504
 
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
+
+TARGET_CAMERASERVICE_CLOSES_NATIVE_HANDLES := true
