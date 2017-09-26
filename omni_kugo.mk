@@ -12,4 +12,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_kugo.mk
+# Bootanimation
+TARGET_BOOTANIMATION_SIZE := 720x407
+
+# Inherit device parts
+$(call inherit-product, device/sony/kugo/aosp_f5321.mk)
+
+# Override Product Name
+PRODUCT_NAME := omni_kugo
+PRODUCT_MODEL := Xperia X Compact
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := none
+
+# Inherit rom parts
+$(call inherit-product, vendor/omni/config/gsm.mk)
+
