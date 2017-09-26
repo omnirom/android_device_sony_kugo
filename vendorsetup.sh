@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo aosp_f5321-userdebug
+add_lunch_combo omni_kugo-userdebug
