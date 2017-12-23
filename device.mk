@@ -103,13 +103,13 @@ PRODUCT_PROPERTY_OVERRIDES := \
     ro.usb.pid_suffix=1E8
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, device/sony/loire/platform.mk)
+$(call inherit-product, device/sony/loire-common/platform.mk)
 
 # copy wlan firmware
-$(call inherit-product-if-exists, vendor/broadcom/wlan/bcmdhd/firmware/bcm43455/device-bcm-vendor.mk)
+$(call inherit-product-if-exists, vendor/sony/broadcom/wlan/bcmdhd/firmware/bcm43455/device-bcm-vendor.mk)
 
 # copy NFC firmware
-$(call inherit-product-if-exists, vendor/nxp/nxp-vendor.mk)
+$(call inherit-product-if-exists, vendor/sony/nxp/nxp-vendor.mk)
 
 # include board vendor blobs
 $(call inherit-product-if-exists, vendor/sony/loire-common/loire-partial.mk)

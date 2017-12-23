@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/sony/loire/PlatformConfig.mk
+include device/sony/loire-common/PlatformConfig.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := unknown
 ifneq (,$(filter %f5321,$(TARGET_PRODUCT)))
