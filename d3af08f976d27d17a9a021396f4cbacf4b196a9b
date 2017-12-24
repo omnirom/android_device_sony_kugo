@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2c9d26f9_68dfb13c",
+        "filename": "omni_kugo.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1001823
+      },
+      "writtenOn": "2017-12-24T21:22:35Z",
+      "side": 1,
+      "message": "shouldn\u0027t the platform-common call common?",
+      "revId": "d3af08f976d27d17a9a021396f4cbacf4b196a9b",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
