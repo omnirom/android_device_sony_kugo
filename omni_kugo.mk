@@ -26,5 +26,6 @@ PRODUCT_MODEL := Xperia X Compact
 TARGET_OTA_ASSERT_DEVICE := none
 
 # Inherit rom parts
+$(call inherit-product, device/sony/common/omni.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
