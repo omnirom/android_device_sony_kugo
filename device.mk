@@ -71,17 +71,9 @@ PRODUCT_PACKAGES += \
     init.recovery.kugo \
     init.kugo
 
-# Lights
-PRODUCT_PACKAGES += \
-    lights.kugo
-
 # Simple PowerHAL
 PRODUCT_PACKAGES += \
     power.kugo
-
-# Fingerprint HAL
-PRODUCT_PACKAGES += \
-    fingerprint.kugo
 
 # NFC config
 PRODUCT_PACKAGES += \
