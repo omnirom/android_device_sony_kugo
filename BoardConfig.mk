@@ -14,10 +14,7 @@
 
 include device/sony/loire-common/PlatformConfig.mk
 
-TARGET_BOOTLOADER_BOARD_NAME := F5321
-
-# Platform
-PRODUCT_PLATFORM := loire
+TARGET_BOOTLOADER_BOARD_NAME := loire
 
 BOARD_KERNEL_CMDLINE += androidboot.hardware=kugo
 
