@@ -23,7 +23,7 @@ PRODUCT_NAME := omni_kugo
 PRODUCT_MODEL := Xperia X Compact
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := none
+TARGET_OTA_ASSERT_DEVICE := kugo
 
 # Inherit rom parts
 $(call inherit-product, device/sony/common/omni.mk)
