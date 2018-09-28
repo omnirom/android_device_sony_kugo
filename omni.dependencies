@@ -3,6 +3,6 @@
     "remote":       "omnirom",
     "repository":   "android_device_sony_loire-common",
     "target_path":  "device/sony/loire-common",
-    "revision":     "android-8.1"
+    "revision":     "android-9.0"
   }
 ]
